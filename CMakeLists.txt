@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.6.9)
+cmake_minimum_required(VERSION 3.0.2)
 project(mypkg)
 
 find_package(catkin REQUIRED COMPONENTS
