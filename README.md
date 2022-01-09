@@ -1,3 +1,3 @@
-# kadai02
-practice of ROS2
-ver. ros melodic
+# 課題2
+ROSのプログラミングの練習です。大きな変更点はありませんが実効速度が10㎐から5㎐になっています。
+実行ros melodic
