@@ -6,6 +6,6 @@ def cb(message):
   global n
   n = message.data**2*math.pi
 if __name__=='__main__':   
-rospy.init_node('twice')
+rospy.init_node('')
 sub = rospy.Subscriber('count_up' , Int32, cb)
 rospy.spin()
