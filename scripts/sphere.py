@@ -2,7 +2,7 @@
 import rospy
 import math
 
-from std_msgs.msg import Int32
+from std_msgs.msg import Int64
 
 n = 0
 
