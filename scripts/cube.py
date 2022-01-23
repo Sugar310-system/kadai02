@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 import rospy
 from std_msgs.msg import Int32
+
 def cb(message):
-  global n
-  n = message.data**3
-if __name__=='__main__':   
- rospy.init_node('cube')
- sub = rospy.Subscriber('count_up' , Int32, cb)
- rospy.spin()
+    rospy.loginfo(message.data**3)
+
+if __name__ == '__main__':
+    rospy.init_node('twice')
+    sub = rospy.Subscriber('count_up', Int32, cb)
+    rospy.spin()
