@@ -4,10 +4,17 @@ import math
 
 from std_msgs.msg import Int32
 
-def cb(message):
-    rospy.loginfo(message.data**3*math.pi*4/3)
+n = 0
 
-if __name__ == '__main__':
-    rospy.init_node('twice')
-    sub = rospy.Subscriber('count_up', Int32, cb)
-    rospy.spin()
+def cb(message):
+    global n
+    n = message.data**3*math.pi*4/3
+
+if __name__ == '__main__': 
+    rospy.init_node('sphere')
+    sub = rospy.Subscriber('count_up', Int32, cb) 
+    pub = rospy.Publisher('sphere', Int32, queue_size=1) 
+    rate = rospy.Rate(5)
+    while not rospy.is_shutdown():
+        pub.publish(n)
+        rate.sleep()
