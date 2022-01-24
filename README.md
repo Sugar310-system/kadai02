@@ -38,4 +38,5 @@ ROSのプログラミングの練習です。大きな変更点はありませ�
 
 ## 実行の様子
 
-
+## ライセンス
+BSD 3-Clause "New" or "Revised" License
