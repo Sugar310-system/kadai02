@@ -4,19 +4,24 @@ ROSのプログラミングの練習です。大きな変更点はありませ�
 ## 実行環境
 
 ハードウェア
+
 ・Panasonic CF-19
 
 
 ソフトウェア
+
 ・Ubuntu 18.04
+
 ・ROS melodic
 
 ## 前提条件
+
 ・ROSがインストール済みであること
 
 ・catkinワークスペースのディレクトリを作成済みであること
 
 ## インストール手順
+
 ・catkin_ws/srcに移動しリポジトリgit@github.com:Sugar310-system/mypkg.gitをgit cloneする。
 
 ## 実行
