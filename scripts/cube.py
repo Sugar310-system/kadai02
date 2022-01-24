@@ -6,6 +6,6 @@ def cb(message):
     rospy.loginfo(message.data**3)
 
 if __name__ == '__main__':
-    rospy.init_node('twice')
+    rospy.init_node('cube')
     sub = rospy.Subscriber('count_up', Int32, cb)
     rospy.spin()
