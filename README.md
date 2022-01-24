@@ -5,12 +5,15 @@ ROSのプログラミングの練習です。大きな変更点はありませ�
 
 ハードウェア
 ・Panasonic CF-19
+
+
 ソフトウェア
 ・Ubuntu 18.04
 ・ROS melodic
 
 ## 前提条件
 ・ROSがインストール済みであること
+
 ・catkinワークスペースのディレクトリを作成済みであること
 
 ## インストール手順
