@@ -24,7 +24,7 @@ ROSのプログラミングの練習です。大きな変更点はありませ�
 
 ## 4.インストール＆実行手順
 
-・`catkin_ws/src`に移動しリポジトリgit@github.com:Sugar310-system/mypkg.gitをgit cloneする。
+・`catkin_ws/src`に移動しリポジトリ`git@github.com:Sugar310-system/mypkg.git`を`git clone`する。
 
 ・`~/catkin_ws`で`catkin_make`をする。
 
