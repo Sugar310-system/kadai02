@@ -40,5 +40,7 @@ ROSのプログラミングの練習です。大きな変更点はありませ�
 
 ## 5.実行の様子
 
+https://youtu.be/ZAycVKEdNjg
+
 ## 6.ライセンス
 BSD 3-Clause "New" or "Revised" License
